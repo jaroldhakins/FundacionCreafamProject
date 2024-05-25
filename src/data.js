@@ -1,20 +1,17 @@
 // rooms images
-import Room1Img from './assets/img/rooms/1.png';
-import Room1ImgLg from './assets/img/rooms/1-lg.png';
-import Room2Img from './assets/img/rooms/2.png';
-import Room2ImgLg from './assets/img/rooms/2-lg.png';
-import Room3Img from './assets/img/rooms/3.png';
-import Room3ImgLg from './assets/img/rooms/3-lg.png';
-import Room4Img from './assets/img/rooms/4.png';
-import Room4ImgLg from './assets/img/rooms/4-lg.png';
-import Room5Img from './assets/img/rooms/5.png';
-import Room5ImgLg from './assets/img/rooms/5-lg.png';
-import Room6Img from './assets/img/rooms/6.png';
-import Room6ImgLg from './assets/img/rooms/6-lg.png';
-import Room7Img from './assets/img/rooms/7.png';
-import Room7ImgLg from './assets/img/rooms/7-lg.png';
-import Room8Img from './assets/img/rooms/8.png';
-import Room8ImgLg from './assets/img/rooms/8-lg.png';
+import Room1Img from './assets/img/rooms/1.jpeg';
+import Room1ImgLg from './assets/img/rooms/1-lg.jpeg';
+import Room2Img from './assets/img/rooms/2.jpeg';
+import Room2ImgLg from './assets/img/rooms/2-lg.jpeg';
+import Room3Img from './assets/img/rooms/3.jpeg';
+import Room3ImgLg from './assets/img/rooms/3-lg.jpeg';
+import Room4Img from './assets/img/rooms/4.jpeg';
+import Room4ImgLg from './assets/img/rooms/4-lg.jpeg';
+import Room5Img from './assets/img/rooms/5.jpeg';
+import Room5ImgLg from './assets/img/rooms/5-lg.jpeg';
+import Room6Img from './assets/img/rooms/6.jpeg';
+import Room6ImgLg from './assets/img/rooms/6-lg.jpeg';
+
 // import icons
 import {
   FaWifi,
@@ -23,16 +20,15 @@ import {
   FaParking,
   FaSwimmingPool,
   FaHotdog,
-  FaStopwatch,
   FaCocktail,
 } from 'react-icons/fa';
 
 export const roomData = [
   {
     id: 1,
-    name: 'Superior Room',
+    name: 'Cabaña 1',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit.Ea placeat eos sed voluptas unde veniam eligendi a. Quaerat molestiae hic omnis temporibus quos consequuntur nam voluptatum ea accusamus, corrupti nostrum eum placeat quibusdam quis beatae quae labore earum architecto aliquid debitis.',
+      'Cabaña con parqueadero, wifi, zona BBQ, zona de camping.\nEstá completamente equipada para 18 personas, tiene acceso a piscinas, Jacuzzi, Turco y demás atracciones de la finca',
     facilities: [
       { name: 'Wifi', icon: <FaWifi /> },
       { name: 'Coffee', icon: <FaCoffee /> },
@@ -40,20 +36,18 @@ export const roomData = [
       { name: 'Parking Space', icon: <FaParking /> },
       { name: 'Swimming Pool', icon: <FaSwimmingPool /> },
       { name: 'Breakfast', icon: <FaHotdog /> },
-      { name: 'GYM', icon: <FaStopwatch /> },
       { name: 'Drinks', icon: <FaCocktail /> },
     ],
-    size: 30,
-    maxPerson: 1,
-    price: 115,
+    maxPerson: 18,
+    price: 1400000,
     image: Room1Img,
     imageLg: Room1ImgLg,
   },
   {
     id: 2,
-    name: 'Signature Room',
+    name: 'Cabaña Maderos',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit.Ea placeat eos sed voluptas unde veniam eligendi a. Quaerat molestiae hic omnis temporibus quos consequuntur nam voluptatum ea accusamus, corrupti nostrum eum placeat quibusdam quis beatae quae labore earum architecto aliquid debitis.',
+      'Cabaña con parqueadero, wifi, zona BBQ, zona de camping.\nEstá completamente equipada para 12 personas, tiene acceso a piscinas, Jacuzzi, Turco y demás atracciones de la finca',
     facilities: [
       { name: 'Wifi', icon: <FaWifi /> },
       { name: 'Coffee', icon: <FaCoffee /> },
@@ -61,20 +55,18 @@ export const roomData = [
       { name: 'Parking Space', icon: <FaParking /> },
       { name: 'Swimming Pool', icon: <FaSwimmingPool /> },
       { name: 'Breakfast', icon: <FaHotdog /> },
-      { name: 'GYM', icon: <FaStopwatch /> },
       { name: 'Drinks', icon: <FaCocktail /> },
     ],
-    size: 70,
-    maxPerson: 2,
-    price: 220,
+    maxPerson: 12,
+    price: 1050000,
     image: Room2Img,
     imageLg: Room2ImgLg,
   },
   {
     id: 3,
-    name: 'Deluxe Room',
+    name: 'Cabaña 2',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit.Ea placeat eos sed voluptas unde veniam eligendi a. Quaerat molestiae hic omnis temporibus quos consequuntur nam voluptatum ea accusamus, corrupti nostrum eum placeat quibusdam quis beatae quae labore earum architecto aliquid debitis.',
+    'Cabaña con parqueadero, wifi, zona BBQ, zona de camping.\nEstá completamente equipada para 8 personas, tiene acceso a piscinas, Jacuzzi, Turco y demás atracciones de la finca',
     facilities: [
       { name: 'Wifi', icon: <FaWifi /> },
       { name: 'Coffee', icon: <FaCoffee /> },
@@ -82,20 +74,18 @@ export const roomData = [
       { name: 'Parking Space', icon: <FaParking /> },
       { name: 'Swimming Pool', icon: <FaSwimmingPool /> },
       { name: 'Breakfast', icon: <FaHotdog /> },
-      { name: 'GYM', icon: <FaStopwatch /> },
       { name: 'Drinks', icon: <FaCocktail /> },
     ],
-    size: 50,
-    maxPerson: 3,
-    price: 265,
+    maxPerson: 8,
+    price: 400000,
     image: Room3Img,
     imageLg: Room3ImgLg,
   },
   {
     id: 4,
-    name: 'Luxury Room',
+    name: 'Cabaña 3',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit.Ea placeat eos sed voluptas unde veniam eligendi a. Quaerat molestiae hic omnis temporibus quos consequuntur nam voluptatum ea accusamus, corrupti nostrum eum placeat quibusdam quis beatae quae labore earum architecto aliquid debitis.',
+    'Cabaña con parqueadero, wifi, zona BBQ, zona de camping.\nEstá completamente equipada para 8 personas, tiene acceso a piscinas, Jacuzzi, Turco y demás atracciones de la finca',
     facilities: [
       { name: 'Wifi', icon: <FaWifi /> },
       { name: 'Coffee', icon: <FaCoffee /> },
@@ -103,20 +93,18 @@ export const roomData = [
       { name: 'Parking Space', icon: <FaParking /> },
       { name: 'Swimming Pool', icon: <FaSwimmingPool /> },
       { name: 'Breakfast', icon: <FaHotdog /> },
-      { name: 'GYM', icon: <FaStopwatch /> },
       { name: 'Drinks', icon: <FaCocktail /> },
     ],
-    size: 50,
-    maxPerson: 4,
-    price: 289,
+    maxPerson: 8,
+    price: 400000,
     image: Room4Img,
     imageLg: Room4ImgLg,
   },
   {
     id: 5,
-    name: 'Luxury Suite Room',
+    name: 'Habitación Individual',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit.Ea placeat eos sed voluptas unde veniam eligendi a. Quaerat molestiae hic omnis temporibus quos consequuntur nam voluptatum ea accusamus, corrupti nostrum eum placeat quibusdam quis beatae quae labore earum architecto aliquid debitis.',
+    'Cabaña con parqueadero, wifi, zona BBQ, zona de camping.\nEstá completamente equipada para 3 personas, tiene acceso a piscinas, Jacuzzi, Turco y demás atracciones de la finca',
     facilities: [
       { name: 'Wifi', icon: <FaWifi /> },
       { name: 'Coffee', icon: <FaCoffee /> },
@@ -124,20 +112,18 @@ export const roomData = [
       { name: 'Parking Space', icon: <FaParking /> },
       { name: 'Swimming Pool', icon: <FaSwimmingPool /> },
       { name: 'Breakfast', icon: <FaHotdog /> },
-      { name: 'GYM', icon: <FaStopwatch /> },
       { name: 'Drinks', icon: <FaCocktail /> },
     ],
-    size: 90,
-    maxPerson: 5,
-    price: 320,
+    maxPerson: 3,
+    price: 220000,
     image: Room5Img,
     imageLg: Room5ImgLg,
   },
   {
     id: 6,
-    name: 'Deluxe Room',
+    name: 'Centro Recreativo',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit.Ea placeat eos sed voluptas unde veniam eligendi a. Quaerat molestiae hic omnis temporibus quos consequuntur nam voluptatum ea accusamus, corrupti nostrum eum placeat quibusdam quis beatae quae labore earum architecto aliquid debitis.',
+    'Cabaña con parqueadero, wifi, zona BBQ, zona de camping.\nEstá completamente equipada para 34 personas, tiene acceso a piscinas, Jacuzzi, Turco y demás atracciones de la finca',
     facilities: [
       { name: 'Wifi', icon: <FaWifi /> },
       { name: 'Coffee', icon: <FaCoffee /> },
@@ -145,55 +131,11 @@ export const roomData = [
       { name: 'Parking Space', icon: <FaParking /> },
       { name: 'Swimming Pool', icon: <FaSwimmingPool /> },
       { name: 'Breakfast', icon: <FaHotdog /> },
-      { name: 'GYM', icon: <FaStopwatch /> },
       { name: 'Drinks', icon: <FaCocktail /> },
     ],
-    size: 45,
-    maxPerson: 6,
-    price: 344,
+    maxPerson: 34,
+    price: 1650000,
     image: Room6Img,
     imageLg: Room6ImgLg,
-  },
-  {
-    id: 7,
-    name: 'Luxury Room',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit.Ea placeat eos sed voluptas unde veniam eligendi a. Quaerat molestiae hic omnis temporibus quos consequuntur nam voluptatum ea ccusamus, corrupti nostrum eum placeat quibusdam quis beatae quae labore earum architecto aliquid debitis.',
-    facilities: [
-      { name: 'Wifi', icon: <FaWifi /> },
-      { name: 'Coffee', icon: <FaCoffee /> },
-      { name: 'Bath', icon: <FaBath /> },
-      { name: 'Parking Space', icon: <FaParking /> },
-      { name: 'Swimming Pool', icon: <FaSwimmingPool /> },
-      { name: 'Breakfast', icon: <FaHotdog /> },
-      { name: 'GYM', icon: <FaStopwatch /> },
-      { name: 'Drinks', icon: <FaCocktail /> },
-    ],
-    size: 84,
-    maxPerson: 7,
-    price: 389,
-    image: Room7Img,
-    imageLg: Room7ImgLg,
-  },
-  {
-    id: 8,
-    name: 'Deluxe Room',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit.Ea placeat eos sed voluptas unde veniam eligendi a. Quaerat molestiae hic omnis temporibus quos consequuntur nam voluptatum ea accusamus, corrupti nostrum eum placeat quibusdam quis beatae quae labore earum architecto aliquid debitis.',
-    facilities: [
-      { name: 'Wifi', icon: <FaWifi /> },
-      { name: 'Coffee', icon: <FaCoffee /> },
-      { name: 'Bath', icon: <FaBath /> },
-      { name: 'Parking Space', icon: <FaParking /> },
-      { name: 'Swimming Pool', icon: <FaSwimmingPool /> },
-      { name: 'Breakfast', icon: <FaHotdog /> },
-      { name: 'GYM', icon: <FaStopwatch /> },
-      { name: 'Drinks', icon: <FaCocktail /> },
-    ],
-    size: 48,
-    maxPerson: 8,
-    price: 499,
-    image: Room8Img,
-    imageLg: Room8ImgLg,
   },
 ];
